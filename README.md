@@ -42,17 +42,17 @@ After installation, use these URLs:
 
 **Publish stream (OBS, ffmpeg, etc):**
 ```
-rtmp://<server-ip>/<stream-key>
+rtmp://<server-ip>/live
 ```
 
 **Play HLS stream:**
 ```
-http://<server-ip>:8888/<stream-key>/index.m3u8
+http://<server-ip>:8888/live/<stream-key>
 ```
 
 **Play via RTSP:**
 ```
-rtsp://<server-ip>:8554/<stream-key>
+rtsp://<server-ip>:8554/live/<stream-key>
 ```
 
 ### Management
