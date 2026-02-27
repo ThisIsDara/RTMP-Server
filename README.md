@@ -19,6 +19,8 @@ Automated shell script to download, install, and configure MediaMTX (RTMP/HLS se
 ## Quick Start
 
 ```bash
+git clone https://github.com/ThisIsDara/RTMP-Server
+cd RTMP-Server
 chmod +x rtmp-setup.sh
 sudo ./rtmp-setup.sh
 ```
